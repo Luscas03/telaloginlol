@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+.box {
+    width: 400px;
+    height: 720px;
+   margin: 5%;
+    background-color:#f9f9f9 ;
+    /* #f9f9f9 */
+}
+.img {
+
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    transform: translateY(50px);
+}
+#login {
+    transform: translateY(100px);
+    font-family: 'Arimo', sans-serif;
+}
+#formn {
+    transform: translateY(140px);
+}
+#fname {
+    background-color: #ededed;
+    height: 45px;
+    width: 300px;
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+  
+  
+
+}
+
+
+#passwd {
+    background-color: #ededed;
+    transform: translateY(10px);
+    height: 45px;
+    width: 300px;
+    border: 0 none;
+  
+    border-radius: 5px 5px 5px 5px;
+}
