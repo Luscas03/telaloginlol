@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 .box {
     width: 400px;
     height: 720px;
@@ -21,24 +22,114 @@
 #formn {
     transform: translateY(140px);
 }
-#fname {
-    background-color: #ededed;
-    height: 45px;
-    width: 300px;
-    border: 0 none;
+#rsociais {
+    transform: scale(0.79);
+    margin-top: 140px;
+ 
+}
+#facebook {
+    background-color: #1877f2;
+    height: 30px;
     border-radius: 5px 5px 5px 5px;
-  
-  
-
+    /* transform: translatex(50px); */
+    color: white;
+    margin: 10px;
+    
+    
+}
+#facebook:hover {
+    background-color: #0354bd;
+    cursor: pointer;
+}
+#google:hover {
+    background-color: #f0efef;
+    cursor: pointer;
+}
+#apple:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#google {
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    border: solid 1px #ededed;
+    margin: 10px;
+}
+   
+#apple {
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: black;
+    margin: 10px;
+}
+#manterl{
+   margin-right: 260px;
+   font-family: 'Arimo', sans-serif;
+   color: #a7a7a7;
+  margin-top: 5px;
 }
 
-
-#passwd {
-    background-color: #ededed;
-    transform: translateY(10px);
-    height: 45px;
-    width: 300px;
-    border: 0 none;
+.input-field {
+    position: relative;
+    transform: translateY(130px);
+    margin-left: 50px;
+ 
+ 
+  }
   
+  .input-field input {
+    margin: 10px 0;
+    width: 300px;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background-position: -200px 0;
+    background-color: #ededed;
     border-radius: 5px 5px 5px 5px;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  .input-field input:focus {
+    box-shadow: none;
+    /* outline-offset: 2px; */
+    background-position: 0 0;
+  }
+  
+  .input-field label {
+    color: #a7a7a7;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    transition: .1s ease-out;
+    margin-left: 10px;
+    font-family: 'Staatliches', cursive;
+  }
+
+#btnlogin {
+    background-color:#f9f9f9;
+    width: 60px;
+    height: 60px; 
+    transform: translateX(165px);
+    margin-top: 90px;
+    border: solid 2px #e8e8e8;
+    border-radius: 20px 20px 20px 20px;
+
+}
+#seta {
+ transform: scale(2);  
+ color:#e8e8e8; 
+ 
+
+}
+#help {
+    font-size: small;
+    color: #a7a7a7;
+    font-family: 'Staatliches', cursive;
+    margin-top: 73px;
+}
+#help p:hover {
+    color: black;
 }

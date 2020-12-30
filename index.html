@@ -19,21 +19,90 @@
 
 
     </div>
-<div class="text-center" id="formn">
-    <input type="text" id="fname" name="fname">
-    <label for="fname">NOME DE USUÁRIO</label>
-
-    <input type="password" id="passwd" name="fpasswd" placeholder="SENHA">
-    <label for="passwd">SENHA</label>
-</div>
     
+    <div class="input-field">
+        <input id="name" type="text" class="validate">
+        <label for="name">NOME DE USUÁRIO</label>
+      </div>
+      
+      <div class="input-field">
+        <input id="lastname" type="password" class="validate">
+        <label for="lastname">SENHA</label>
+      </div>
+      <div id="rsociais" class="container text-center">
+        <div class="row">
+          <div class="col-sm" id="facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </div>
+          <div class="col-sm" id="google">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+              <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+            </svg>
+          </div>
+          <div class="col-sm" id="apple">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI5MS41MzggMjkxLjUzOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8cGF0aCBzdHlsZT0iIiBkPSJNMTg4LjM3Myw0NC4zMDhjMTAuOTctMTEuNzQ0LDE4LjM5LTI4LjA0OSwxNi4zNTktNDQuMzA4Yy0xNS44MDQsMC41NjQtMzQuOTU4LDkuMjc3LTQ2LjMwMiwyMS4wMiAgIGMtMTAuMTY5LDEwLjM5Ni0xOS4wNzIsMjcuMDExLTE2LjY5Niw0Mi45NTFDMTU5LjM2OSw2NS4xNjQsMTc3LjM4NSw1Ni4wMzMsMTg4LjM3Myw0NC4zMDh6IE0yMjIuMDMsMTU2LjU5MyAgIGMtMC4zMzctMzYuNDUxLDI4Ljg1OS01My45NTgsMzAuMTUyLTU0LjgwNGMtMTYuNDE0LTI0Ljc1My00MS45NzctMjguMTQtNTEuMDgxLTI4LjUyMmMtMjEuNzY3LTIuMjg1LTQyLjQ0MiwxMy4xODItNTMuNDkzLDEzLjE4MiAgIGMtMTEuMDA2LDAtMjguMDMtMTIuODgyLTQ2LjA4My0xMi41MzZjLTIzLjczMywwLjM5MS00NS42MDEsMTQuMjExLTU3Ljc5LDM2LjExNEMxOS4wODEsMTU0LjA5LDM3LjQxNiwyMTkuMzYzLDYxLjQ0LDI1NS4xMDQgICBjMTEuNzQ0LDE3LjQ5NywyNS43MjcsMzcuMTI1LDQ0LjA4OSwzNi40MTVjMTcuNzI1LTAuNzEsMjQuNDA3LTExLjc4OSw0NS43OTItMTEuNzg5YzIxLjM5NCwwLDI3LjM4NCwxMS43ODksNDYuMTAxLDExLjQzNCAgIGMxOS4wNDUtMC4zNTUsMzEuMDk4LTE3LjgzNCw0Mi43NDItMzUuMzg2YzEzLjQ3My0yMC4yOTIsMTkuMDI3LTM5LjkzOCwxOS4zNDUtNDAuOTMgICBDMjU5LjEsMjE0LjYxMSwyMjIuNDIxLDIwMC4xODIsMjIyLjAzLDE1Ni41OTN6IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjY2NkMGQyIiBjbGFzcz0iIj48L3BhdGg+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" width="20" height="20" />
+          </div>
+        </div>
+         <div id="manterl">
+
+          <input type="checkbox" id="mlogin" name="horns">
+          <label for="mlogin">Manter login</label>
+        </div> 
+       
+      </div>
+      <div class="text-center" id="btnlogin">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="60" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16" id="seta">
+          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+        </svg>
+      </div>
+      <div class="text-center" id="help">
+        <p id="is">NÃO CONSEGUE INICIAR A SESSÃO?
+     
+        <p> CRIAR CONTA</p>
+      </p>
+      </div>
+
+
+
+
+
+
+     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script>
+          
+    $(() => {
+
+$("input").on("focus", function(event) {
+  const div = $(this).parent(".input-field");
+  const label = div.children("label");
+  
+  label.css("top", "-1px");
+});
+
+$("input").on("blur", function(event) {
+  const div = $(this).parent(".input-field");
+  const label = div.children("label");
+  
+  if ($(this).val().length == 0) {
+    label.css("top", "12px");
+  }
+});
+
+});
+
+
+      </script>
 
 
 
 
 
 </div>
-   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
