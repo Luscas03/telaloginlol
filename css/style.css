@@ -7,8 +7,14 @@
     background-color:#f9f9f9 ;
     /* #f9f9f9 */
 }
-.img {
 
+#imagem {
+    width: 1024px;
+    height: 720px;
+    margin-left: 388px;
+    transform: translateY(-708px);
+    margin-right: 5%;
+    position: absolute;
 }
 #logo {
     width: 60px;
@@ -77,7 +83,9 @@
  
  
   }
-  
+  .input-field input:hover {
+      background-color: #d3d2d2;
+  }
   .input-field input {
     margin: 10px 0;
     width: 300px;
@@ -117,6 +125,10 @@
     border: solid 2px #e8e8e8;
     border-radius: 20px 20px 20px 20px;
 
+}
+#btnlogin:hover {
+    background-color: #d13639;
+    border: solid 2px #d13639;
 }
 #seta {
  transform: scale(2);  
