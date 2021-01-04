@@ -21,6 +21,9 @@
     height: 60px;
     transform: translateY(50px);
 }
+#inf {
+    color: white;
+}
 #login {
     transform: translateY(100px);
     font-family: 'Arimo', sans-serif;
