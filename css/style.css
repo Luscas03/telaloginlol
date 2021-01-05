@@ -5,7 +5,59 @@
     height: 720px;
    margin: 5%;
     background-color:#f9f9f9 ;
+  
     /* #f9f9f9 */
+}
+#x {
+    color: rgb(255, 255, 255) ;
+    transform: translateX(1384px);
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    height: 33px;
+
+}
+#x:hover {
+    background-color: #d13639;
+
+}
+#qst {
+    color: rgb(255, 255, 255) ;
+    transform: translateX(1348px);
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    height: 33px;
+}
+#qst:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+}
+#min {
+    color: rgb(255, 255, 255) ;
+    transform: translateX(1308px);
+   font-weight: bold;
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    height: 33px;
+
+}
+#min:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+}
+#conf {
+    color: rgb(255, 255, 255) ;
+    transform: translateX(1330px);
+   font-weight: bold;
+    position: absolute;
+    z-index: 4;
+    padding: 12px;
+    top: 770px;
+    background-color: #747376;
+    border-radius: 5px 5px 5px 5px;
+}
+#conf:hover {
+    background-color: #949496;
 }
 
 #imagem {
